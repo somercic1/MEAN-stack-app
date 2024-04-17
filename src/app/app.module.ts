@@ -24,24 +24,23 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     PostCreateComponent,
     HeaderComponent,
     PostListComponent
-
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    HttpClientModule,
-    MatPaginatorModule,
     MatProgressSpinnerModule,
-    
+    MatPaginatorModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+
