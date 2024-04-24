@@ -1,27 +1,19 @@
-# MeanCourse
+MEAN Stack Social Media Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+This is a social media application built using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). It allows users to create, edit, and delete posts, as well as authenticate and authorize users. Users can upload images with their posts, and pagination is implemented for better user experience.
 
-## Development server
+Features
+User authentication: Users can sign up and log in to the application.
+Create Post: Users can create new posts with text content and optional image upload.
+Edit Post: Users can edit their own posts.
+Delete Post: Users can delete their own posts.
+Image Upload: Users can upload images along with their posts.
+Pagination: Posts are paginated for easier navigation.
+Authorization: Users can only edit or delete their own posts.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Technologies Used
+MongoDB: NoSQL database for storing posts and user information.
+Express.js: Backend framework for handling HTTP requests.
+Angular: Frontend framework for building the user interface.
+Node.js: JavaScript runtime for running server-side code.
+Angular CLI: Command-line interface for Angular development.
