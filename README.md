@@ -1,4 +1,4 @@
-#MEAN Stack Social Media Application
+##MEAN Stack Social Media Application##
 
 This is a social media application built using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). It allows users to create, edit, and delete posts, as well as authenticate and authorize users. Users can upload images with their posts, and pagination is implemented for better user experience.
 
